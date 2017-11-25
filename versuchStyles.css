@@ -1,0 +1,90 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*********************** Kopfzeile : Logo & Name *************************/
+.Logo-Container{
+	color: white;
+	background-color: #dc4c17;
+	height: 110px;
+}
+
+.CodeLogo{
+	width: 960px;
+	padding: 25px; 
+	margin: 0px;
+	font-family: sans-serif;
+	list-style: none; /*** Punkt weg bei ul/li***/
+}
+
+li img {
+	display: block;
+    color: white;
+    float: left;
+}
+
+li h3{
+	padding-top: 9px;
+}
+
+/*********************    Navigation   ***********************/
+.Navigation{
+    color: white;
+    background-color:#b9a9a9;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 5px;     /*** Abstand zu roten Balken***/
+    padding: 5px;      /*** Abstand gerauer Balken gesamt ***/
+    overflow: hidden;
+    width: 100%;
+    font-family: verdana;
+}
+
+li {
+    float: left;
+    border: 0px solid ;
+}
+
+li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;  /*** Bei Link:  keinen Unterstrich ***/
+}
+  
+/*********************  4 Bilder ***********************/
+
+.PicOneTwo{
+	font-family: verdana;
+	max-width: 1300px;
+	margin: 10px auto 0 auto;
+	line-height: 1.65;
+	padding-top: 20px 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.PicThreeFour{
+	font-family: verdana;
+	max-width: 1300px;
+	margin: 10px auto 0 auto;
+	line-height: 1.65;
+	padding-top: 20px 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+/********************* Footer ***********************/
+
+#footer{
+	color: white;
+	background-color: #dc4c17;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
